@@ -1,0 +1,10 @@
+
+pinecone:
+  api_key: "your-pinecone-api-key"
+  environment: "us-west1-gcp"
+
+sec_edgar:
+  api_key: "your-sec-edgar-api-key"
+
+openai:
+  api_key: "your-openai-api-key"

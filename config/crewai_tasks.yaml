@@ -1,0 +1,12 @@
+tasks:
+  - name: Scrape Financial News
+    schedule: "0 8 * * *"  # Run daily at 8 AM
+    script: "scripts/scrape_news.py"
+
+  - name: Scrape SEC Filings
+    schedule: "0 9 * * *"  # Run daily at 9 AM
+    script: "scripts/scrape_sec_filings.py"
+
+  - name: Generate Market Report
+    schedule: "0 10 * * *"  # Run daily at 10 AM
+    script: "scripts/generate_report.py"
